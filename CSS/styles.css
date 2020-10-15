@@ -1,3 +1,26 @@
-body {
-    background-color: blue;
+body{
+    margin: 0;
+}
+
+.heading{
+    background-color: #f6830f;
+    display: block;
+    margin-top: 0;
+    color:#ffffff;
+    padding: 15px;
+    text-align: center;
+}
+
+.webDevText{
+    font-style: italic;
+}
+
+.cloudImg{
+    display: block;
+    position: relative;
+    left:220px;
+}
+.mountainImg{
+    display: block;
+    position: relative;
 }
