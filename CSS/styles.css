@@ -12,22 +12,47 @@ body{
     position: relative;
     font-family: 'Sacramento', cursive;
     font-size: large;
+    margin: 50px;
+}
+
+hr{
+    border: dotted #f6830f 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
 }
 
 h1{
     font-size: 5rem;
+    margin:50px;
+    line-height: 2;
 }
 
 h2{
     font-size: 2rem;
+    font-weight: normal;
+    line-height: 2;
+    color: #f6830f;
+    font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;
 }
+h3{
+    font-size: 2rem;
+    font-weight: normal;
+    line-height: 2;
+    color: #f6830f;
+    text-align: center;
+    font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;
+}
+
 .headingText2{
     font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;
+    font-size: 2.5rem;
 }
 
 .webDevText{
     font-style: italic;
     font-family:"Helvetica Neue", Helvetica,Arial, sans-serif;
+    font-size: 2rem;
 }
 
 .cloudImg1{
@@ -50,3 +75,42 @@ h2{
     margin: 0 auto;  
     position: relative;
 }
+
+.skill-row{
+     margin: 0 100px 0 100px;
+     line-height: 2;
+}
+
+.programmingImg{
+    width: 15%;
+    float: left;
+    margin-right: 30px;;
+}
+
+.footer{
+    background-color: #f6830f;
+    display: block;    
+    position: relative;
+    margin: 50px; 
+    padding: 50px 0 20px;    
+}
+.footerText{
+    color:#ffffff;
+    width: 40%;
+    margin: auto;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.designHeader{
+    margin-right: 300px;
+}
+
+.infoAbout{
+    width: 30%;
+    margin: auto;
+}
+
