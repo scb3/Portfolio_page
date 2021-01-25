@@ -87,9 +87,25 @@ h3{
     margin-right: 30px;;
 }
 
+.imgExample{
+    padding: 50px;
+    width:20%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.imgExample:hover{
+  opacity: 0.5;
+  
+}
+.exampleHeader{
+    font-size:1.5rem;
+}
+
 .footer{
     background-color: #f6830f;
     display: block;    
+    padding: 20px;
     position: relative;
     margin: 50px; 
     padding: 50px 0 20px;    
